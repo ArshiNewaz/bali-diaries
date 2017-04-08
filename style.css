@@ -1,0 +1,36 @@
+/* CSS Reset */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box solid gray;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: arsenal, sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: arsenal, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.homepage-banner{
+  background-image: url(/images/header-background.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 90vh;
+}
+
+.homepage-banner h1 {
+  padding-top: 40vh;
+  color: white;
+}
+
+.headshot {
+  border-radius: 50%;
+}
